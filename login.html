@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录</title>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
+	</head>
+	<body>
+		<!--header-->
+		<header>
+			<a href="javascript:;" class="iconfont" id="iback">&#xe635;</a>
+			<h2>登录</h2>
+			<a href="javascript:;" id="ishare">注册</a>
+		</header>
+		
+		
+		<!--content-->
+		<div id="content">
+			<input type="text" name="username" id="username" placeholder="账号" /><br />
+		<input type="password" name="password" id="password" placeholder="密码"/><br />
+		<label><input type="checkbox" name="rbpassword" id="rbpassword" checked="false"/>记住密码  <a href="javascript:;" id="forgetpassword">忘记密码?</a></label>
+		
+		<input type="button" name="btn" id="btn" value="登录" onclick="_login()"/>
+		</div>
+		
+		<!--footer-->
+		<footer>
+			<a href="home.html"><span class="iconfont">&#xe604;</span><b>主页</b></a>
+			<a href="javascript:;"><span class="iconfont">&#xe600;</span><b>分类</b></a>
+			<a href="shoplist.html"><span class="iconfont">&#xe68f;</span><b>购物车</b></a>
+			<a href="myshow.html"><span class="iconfont">&#xe664;</span><b>我的秀</b></a>
+			<a href="javascript:;"><span class="iconfont">&#xe601;</span><b>更多</b></a>
+		</footer>
+		<script type="text/javascript" src="js/zepto.min.js"></script>
+		<script type="text/javascript" src="js/login.js"></script>
+		
+	</body>
+</html>

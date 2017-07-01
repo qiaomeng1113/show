@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content=""/>
+		<meta name="Keywords" content=""/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0“ minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="format-detection" content="email=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<title>首页</title>
+		<!--swiper插件-->
+		<link rel="stylesheet" type="text/css" href="js/lib/swiper-3.3.1.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/home.css"/>
+	</head>
+	<body>
+		<!--头部-->
+		<header>
+			<h2>ZXIU 走秀网</h2>			
+		</header>
+		<!--search-->
+		<div id="search">
+			<input type="text" name="isearch" id="isearch" placeholder="请输入搜索内容" onchange="searchGoods()"/>
+			<span class="iconfont">&#xe602;</span>
+		</div>
+		<!--slider-->
+		<div id="slider">
+			<div class="swiper-container">
+				<div class="swiper-wrapper" id="swiper-wrapper">
+					<!--插入数据-->
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</div>
+		<!--content-->
+		<input type="hidden" name="page" id="page" />
+		<div id="wraper">
+			<div id="content">
+				<!--插入数据-->
+			</div>
+		</div>
+		<!--footer-->
+		<footer>
+			<a href="home.htm"><span class="iconfont">&#xe604;</span><b>主页</b></a>
+			<a href="javascript:;"><span class="iconfont">&#xe600;</span><b>分类</b></a>
+			<a href="javascript:;" onclick="goshopcar()"><span class="iconfont">&#xe68f;</span><b>购物车</b></a>
+			<a href="myshow.html"><span class="iconfont">&#xe664;</span><b>我的秀</b></a>
+			<a href="javascript:;"><span class="iconfont">&#xe601;</span><b>更多</b></a>
+		</footer>
+		
+		
+		<script type="text/javascript" src="js/iscroll-min.js"></script>
+		<script type="text/javascript" src="js/zepto.min.js"></script>
+		<script type="text/javascript" src="js/home.js"></script>
+		<script type="text/javascript" src="js/lib/swiper-3.3.1.min.js"></script>
+	</body>
+</html>

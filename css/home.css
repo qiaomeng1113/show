@@ -1,0 +1,22 @@
+body{padding-top:.87rem}
+header{width:100%;height:.87rem;background:#e4366b;position:fixed;top:0;z-index:999}
+header h2{font-size:.4rem;color:#fff;text-align:center;line-height:.87rem;font-family:"microsoft yahei"}#search{width:100%;height:.9rem;background:#52525a;text-align:center;position:relative;z-index:1}
+#isearch{width:92%;height:.56rem;border-radius:.5rem;text-indent:.5rem;margin-top:.1rem}#search span{position:absolute;line-height:.56rem;height:.56rem;left:7%;top:.17rem;font-size:.3rem}#slider{width:100%;height:2.5rem}
+#slider .swiper-container{width:100%;height:2.5rem}
+.swiper-slide img{width:100%;height:2.5rem}
+.swiper-pagination-bullet{width:.2rem;height:.2rem;background:red}
+#wraper{width:100%;position:absolute;top:4.27rem;bottom:1rem}
+#content{width:100%;overflow:hidden}
+#content figure{width:100%;height:2.2rem;border-bottom:1px solid #000;box-sizing:border-box;padding:.24rem .15rem}
+#content .figu{width:1.72rem;height:1.72rem;float:left}
+#content figure img{width:1.72rem;height:1.72rem}
+#content figure figcaption{float:left;margin-left:.15rem;width:3.8rem;height:1.72rem;position:relative}
+#content figure figcaption h5{font-size:.26rem;line-height:.4rem;height:.8rem;width:100%;display:-webkit-box;-webkit-line-clamp:2;text-overflow:ellipsis;-webkit-box-orient:vertical;overflow:hidden}p{width:500px;display:-webkit-box;-webkit-line-clamp:3;text-overflow:ellipsis;-webkit-box-orient:vertical;overflow:hidden}
+#content figure figcaption p b{font-size:.28rem;color:red}
+#content figure figcaption p i{font-style:normal;margin-left:.2rem;font-size:.2rem;color:#ccc}
+#content figure figcaption .btn{position:absolute;display:block;width:1.2rem;height:.5rem;background:#dc1e5a;color:#fff;border-radius:.15rem;right:0;bottom:.2rem;line-height:.5rem;text-align:center}
+#content figure figcaption .btn span{font-size:.36rem}
+footer{width:100%;height:1rem;background:#484850;position:fixed;bottom:0;z-index:1}
+footer a{overflow:hidden;float:left;height:1rem;width:20%;text-align:center;box-sizing:border-box;padding-top:.1rem}
+footer span{font-size:.5rem;color:#fff;line-height:.5rem}
+footer b{display:block;height:.3rem;color:#fff;font-size:.24rem}
